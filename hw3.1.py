@@ -1,6 +1,6 @@
 import random
 class Human:
-    def __init__(self, name='Human', job=None, home=None, car=None):
+    def __init__(self, name='Human', job=None, home=None, car=None, pet=None):
         self.name = name
         self.money = 10
         self.gladness = 50
@@ -8,6 +8,7 @@ class Human:
         self.job = job
         self.car = car
         self.home = home
+        self.pet = pet
 
 def get_home(self):
     self.home = House()
